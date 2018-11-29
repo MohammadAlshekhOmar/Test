@@ -1,0 +1,208 @@
+body
+{
+	height: 9000px;
+}
+
+.right
+{
+	text-align: right;
+}
+
+.size
+{
+	font-size: 24px
+}
+
+.padding 
+{
+	padding: 10px
+}
+
+.newClass
+{
+	margin-left: 100px;
+	margin-right: 100px
+}
+
+/* Start Navbar */
+
+.navbar-default .navbar-nav>li>a:focus, 
+.navbar-default .navbar-nav>li>a:hover
+{
+	text-decoration: underline;
+}
+
+.navbar-light
+{
+	background: #FFF
+}
+
+.dropdown-menu>li>a
+{
+	-webkit-transition:padding 0.5s ease;
+	-moz-transition:padding 0.5s ease;
+	-o-transition:padding 0.5s ease;
+	transition:padding 0.5s ease;
+}
+
+.caret
+{
+	margin-left: 8px;
+	float: left;
+	margin-top: 13px;
+	margin-right: 5px
+}
+
+.navbar
+{
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+
+.navbar-default .navbar-nav>li>a,
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:hover
+{
+	color:#000;
+}
+
+.dropdown-menu>li>a:hover
+{
+	padding-right:30px;
+	text-decoration:underline;
+	background-color: #EEE
+}
+
+.navbar>.container .navbar-brand,
+.navbar>.container-fluid .navbar-brand 
+{
+	margin-left: -15px;
+    margin-top: 12px;
+}
+
+.navbar-default .navbar-nav>.active>a
+{
+	color:#000;
+}
+
+.navbar-brand
+{
+	font-size: 30px;
+	line-height: 20px
+}
+
+.navbar-brand span
+{
+	color: #F00;
+}
+
+.navbar-toggle
+{
+	margin-top: 18px;
+}
+
+.navbar-collapse
+{
+	padding-right: 0px;
+}
+
+.navbar-default .navbar-nav>.open>a, 
+.navbar-default .navbar-nav>.open>a:focus, 
+.navbar-default .navbar-nav>.open>a:hover
+{
+	color: #000;
+    background-color: #FFF;
+}
+
+/* End Navbar */
+
+/* Start Carousel */
+
+.carousel-indicators
+{
+	margin-bottom:-12px
+} 
+
+.carousel-indicators li
+{
+	height: 12px;
+	width: 12px;
+	border: 1px solid #EEE
+}
+
+.carousel-indicators .active
+{
+	height: 14px;
+	width: 14px;
+	background-color: #F00
+}
+
+/* End Carousel */
+
+
+/* Start Section About */
+
+.about
+{
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.about h2
+{
+	font-weight: bold
+}
+
+.about h2 span
+{
+	color:#F00;
+	font-size: 28px;
+}
+
+/* End Section About */
+
+/* Start Section Features */
+
+.features
+{
+	background: #EEE;
+	padding-top: 10px;
+	padding-bottom: 150px
+}
+
+.features h1
+{
+	padding-bottom: 30px;
+	font-weight: bold;
+}
+
+.feat img
+{
+	height: 150px;
+	width: 200px;
+}
+
+.features .feat
+{
+	margin-bottom: 50px;
+}
+
+
+#goup {
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+	display: none;
+
+}
+
+textarea {
+	width: 400px;
+	height: 200px
+}
+
+#MySpan {
+	margin-left: 385px;
+}
+/* End Section Features */
